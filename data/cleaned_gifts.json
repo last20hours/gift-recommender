@@ -1,0 +1,12 @@
+[
+    {
+      "name": "헤어퍼퓸 에센스 오일+기프트 (6종 택1)",
+      "category": "뷰티/케어",
+      "price": 23000,
+      "gender": "female",
+      "min_age": 10,
+      "max_age": 19,
+      "target": null,
+      "link": "https://example.com/..."
+    }
+  ]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 - 생일선물</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="top-nav">
+        <a href="/">추천받기</a>
+        <a href="/admin.html" class="nav-active">관리자</a>
+    </nav>
+
+    <div class="container container-wide">
+        <header>
+            <h1>선물 관리</h1>
+            <p class="subtitle">DB 데이터를 추가/수정/삭제할 수 있습니다</p>
+        </header>
+
+        <div class="admin-toolbar">
+            <input type="text" id="searchInput" placeholder="상품명으로 검색">
+            <button class="btn btn-secondary" onclick="loadGifts(1)">검색</button>
+            <button class="btn btn-primary" onclick="openModal()">새 선물 추가</button>
+        </div>
+
+        <div id="totalInfo"></div>
+
+        <table class="gift-table">
+            <thead>
+                <tr>
+                    <th>ID</th><th>상품명</th><th>카테고리</th>
+                    <th>가격</th><th>성별</th><th>나이대</th><th>관리</th>
+                </tr>
+            </thead>
+            <tbody id="giftTableBody"></tbody>
+        </table>
+
+        <div id="pagination" class="pagination"></div>
+    </div>
+
+    <!-- 추가/수정 모달 -->
+    <div id="modal" class="modal-overlay hidden">
+        <div class="modal">
+            <h3 id="modalTitle">새 선물 추가</h3>
+            <form id="giftEditForm">
+                <input type="hidden" id="editId">
+                <div class="form-group">
+                    <label>상품명 *</label>
+                    <input type="text" id="editName" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>카테고리 *</label>
+                        <input type="text" id="editCategory" required>
+                    </div>
+                    <div class="form-group">
+                        <label>가격 (원) *</label>
+                        <input type="number" id="editPrice" required min="0">
+                    </div>
+                </div>
+                <!-- ... 더 많은 입력 필드 ... -->
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">취소</button>
+                    <button type="submit" class="btn btn-primary">저장</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
