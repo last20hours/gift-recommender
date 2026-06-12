@@ -25,7 +25,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = (
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db.init_app(app)
-    with app.app_context():
+with app.app_context():
     for attempt in range(30):
         try:
             db.create_all()
@@ -36,16 +36,15 @@ db.init_app(app)
             time.sleep(2)
     else:
         print("❌ DB 연결 실패")
-            @app.route("/")
+@app.route("/")
 def health():
     return jsonify({"status": "ok", "message": "생일선물 추천 API"})
-
 @app.route("/categories", methods=["GET"])
 def get_categories():
     """카테고리 목록 (프론트엔드 폼에서 사용)"""
     rows = db.session.query(Gift.category).distinct().all()
     return jsonify({"categories": [r[0] for r in rows]})
-    @app.route("/recommend", methods=["POST"])
+@app.route("/recommend", methods=["POST"])
 def recommend():
     data = request.get_json() or {}
     
@@ -99,7 +98,7 @@ def recommend():
         "count": len(scored[:6]),
         "recommendations": scored[:6]
     })
-    @app.route("/admin/gifts", methods=["POST"])
+@app.route("/admin/gifts", methods=["POST"])
 def admin_create():
     data = request.get_json() or {}
     
@@ -125,7 +124,7 @@ def admin_create():
     db.session.add(gift)
     db.session.commit()
     return jsonify(gift.to_dict()), 201
-    @app.route("/admin/gifts", methods=["GET"])
+@app.route("/admin/gifts", methods=["GET"])
 def admin_list():
     page = int(request.args.get("page", 1))
     per_page = int(request.args.get("per_page", 20))
@@ -146,7 +145,7 @@ def admin_list():
         "pages": pagination.pages,
         "gifts": [g.to_dict() for g in pagination.items]
     })
-    @app.route("/admin/gifts/<int:gift_id>", methods=["PUT"])
+@app.route("/admin/gifts/<int:gift_id>", methods=["PUT"])
 def admin_update(gift_id):
     gift = Gift.query.get_or_404(gift_id)
     data = request.get_json() or {}
@@ -161,7 +160,7 @@ def admin_update(gift_id):
     
     db.session.commit()
     return jsonify(gift.to_dict())
-    @app.route("/admin/gifts/<int:gift_id>", methods=["DELETE"])
+@app.route("/admin/gifts/<int:gift_id>", methods=["DELETE"])
 def admin_delete(gift_id):
     gift = Gift.query.get_or_404(gift_id)
     db.session.delete(gift)
