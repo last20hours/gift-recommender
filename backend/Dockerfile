@@ -6,9 +6,9 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 앱 코드 + 시드 스크립트 복사
-COPY app/ ./app/
-COPY scripts/ ./scripts/
+#시드 스크립트 복사
+COPY . .
+#COPY scripts/ ./scripts/
 
 EXPOSE 5000
 
