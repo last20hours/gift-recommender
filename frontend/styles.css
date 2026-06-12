@@ -52,3 +52,6 @@ input:focus, select:focus {
     .form-section { padding: 1.5rem; }
     .container { padding: 2rem 1rem; }
 }
+.hidden {
+    display: none !important;
+}
