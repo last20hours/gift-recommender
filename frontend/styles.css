@@ -1,29 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
 :root {
-    /* 미니멀 모노톤 + 포인트 컬러 */
-    --primary: #ff6b9d;
-    --primary-dark: #000000;
-    --bg: #fafafa;
-    --card: #ffffff;
-    --text: #1a1a1a;
-    --text-light: #666666;
-    --text-muted: #999999;
-    --border: #e5e5e5;
-    --border-strong: #cccccc;
-    --accent: #1a1a1a;
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    /* 🌸 사랑스러운 핑크 & 코코아 테마 컬러 */
+    --primary: #FFB6C1;        /* 라이트 핑크 (기본 버튼 등) */
+    --primary-dark: #FF9EAA;   /* 찐한 핑크 (마우스 올렸을 때) */
+    --primary-deep: #E05A79;   /* 딥 핑크 (성별/카테고리 선택했을 때) */
+    --bg: #FFF0F5;             /* 딸기우유 배경색 */
+    --card: #ffffff;           /* 하얀색 박스 */
+    --text: #5D4037;           /* 코코아 브라운 글씨 */
+    --text-light: #8D6E63;     /* 조금 연한 브라운 */
+    --text-muted: #A1887F;
+    --border: #FFD1DC;         /* 연한 핑크 테두리 */
+    --border-strong: #FFB6C1;  /* 조금 더 진한 핑크 테두리 */
+    
+    /* 기본 기능 컬러 (관리자용 등) */
     --danger: #c0392b;
     --success: #27ae60;
+    --shadow-sm: 0 5px 15px rgba(255, 182, 193, 0.2);
+    --shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Jua', sans-serif;
-  background-color: #FFF0F5; /* 연한 딸기우유 배경 */
-  color: #5D4037; /* 부드러운 코코아 브라운 글씨 */
+    font-family: 'Jua', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
 }
 
+/* 네비게이션 & 헤더 */
 .top-nav {
     background: var(--card);
     padding: 1rem 2rem;
@@ -34,459 +39,162 @@ body {
 .top-nav a {
     color: var(--text-light);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: color 0.15s;
-    letter-spacing: -0.01em;
 }
-.top-nav a:hover { color: var(--text); }
-.top-nav a.nav-active { color: var(--text); font-weight: 600; }
+.top-nav a:hover, .top-nav a.nav-active { color: var(--text); }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 3rem 1.5rem;
-}
+.container { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
 .container-wide { max-width: 1200px; }
 
-header {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding-bottom: 2rem;
-    border-bottom: 1px solid var(--border);
-}
+header { text-align: center; margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+h1 { font-size: 2rem; color: var(--primary-dark); margin-bottom: 0.5rem; }
+.subtitle { color: var(--text-light); font-size: 1.1rem; }
+h2 { font-size: 1.3rem; color: var(--text); margin-bottom: 1.5rem; }
 
-h1 {
-    font-family: inherit;
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 0.5rem;
-    letter-spacing: -0.02em;
-}
-
-.subtitle {
-    color: var(--text-light);
-    font-size: 0.95rem;
-    font-weight: 400;
-}
-
-h2 {
-    font-family: inherit;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.01em;
-}
-
+/* ==============================================
+   🎁 메인 페이지: 폼(입력창) & 추천받기 버튼
+   ============================================== */
 .form-section {
     background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
     padding: 2.5rem;
 }
 
 .form-group { margin-bottom: 1.8rem; }
-
 .form-group > label {
     display: block;
-    font-weight: 500;
     margin-bottom: 0.6rem;
-    font-size: 0.85rem;
-    color: var(--text-light);
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+    font-size: 1rem;
+    color: var(--text);
 }
 
+/* 숫자/텍스트 입력창 */
 input[type="number"], input[type="text"], select {
     width: 100%;
-    padding: 0.7rem 0.9rem;
-    border: 1px solid var(--border-strong);
-    border-radius: 4px;
-    font-size: 0.95rem;
+    padding: 0.8rem;
+    border: 2px solid var(--border-strong);
+    border-radius: 10px;
+    font-size: 1rem;
     font-family: inherit;
     background: var(--card);
     color: var(--text);
-    transition: border-color 0.15s;
-}
-
-input:focus, select:focus {
     outline: none;
-    border-color: var(--text);
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+input:focus, select:focus {
+    border-color: var(--primary-dark);
+    box-shadow: 0 0 5px rgba(255, 158, 170, 0.5);
 }
 
+/* 성별/카테고리 선택 버튼 (안 눌렀을 때) */
 .radio-group { display: flex; gap: 0.5rem; }
-
-.radio-label {
+.radio-label, .checkbox-group label {
     flex: 1;
     cursor: pointer;
     padding: 0.7rem;
-    border: 1px solid var(--border-strong);
-    border-radius: 4px;
+    border: 2px solid var(--border-strong);
+    border-radius: 10px;
     text-align: center;
-    font-weight: 500;
-    font-size: 0.9rem;
-    color: var(--text-light);
-    transition: all 0.15s;
-}
-.radio-label:hover {
-    border-color: var(--text);
+    font-size: 1rem;
     color: var(--text);
+    transition: all 0.2s ease;
 }
-.radio-label:has(input:checked) {
-    background: var(--text);
-    color: var(--card);
-    border-color: var(--text);
-}
-.radio-label input { display: none; }
-
 .checkbox-group {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     gap: 0.5rem;
 }
-.checkbox-group label {
-    cursor: pointer;
-    padding: 0.55rem 0.7rem;
-    border: 1px solid var(--border-strong);
-    border-radius: 4px;
-    text-align: center;
-    font-size: 0.85rem;
-    color: var(--text-light);
-    transition: all 0.15s;
-}
-.checkbox-group label:hover {
-    border-color: var(--text);
-    color: var(--text);
-}
-.checkbox-group label:has(input:checked) {
-    background: var(--text);
-    color: var(--card);
-    border-color: var(--text);
-    font-weight: 500;
-}
-.checkbox-group input { display: none; }
+.radio-label input, .checkbox-group input { display: none; }
 
+/* 성별/카테고리 선택 버튼 (눌렀을 때 -> 딥핑크!) */
+.radio-label:has(input:checked), .checkbox-group label:has(input:checked) {
+    background: var(--primary-deep);
+    border-color: var(--primary-deep);
+    color: #ffffff;
+}
+
+/* 🎀 메인 페이지 '추천받기' 버튼 (통통 튀는 핑크) */
 .submit-btn {
     width: 100%;
-    padding: 0.95rem;
-    background: var(--text);
-    color: var(--card);
+    padding: 1rem;
+    background: var(--primary);
+    color: #ffffff;
     border: none;
-    border-radius: 4px;
-    font-size: 0.95rem;
-    font-weight: 600;
+    border-radius: 15px;
+    font-size: 1.2rem;
     cursor: pointer;
     font-family: inherit;
-    transition: background 0.15s;
+    transition: transform 0.2s ease, background-color 0.2s ease;
     margin-top: 1.5rem;
-    letter-spacing: -0.01em;
 }
-.submit-btn:hover { background: #333; }
-.submit-btn:active { background: #000; }
+.submit-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-3px) scale(1.02);
+}
 
+/* 결과창 (선물 카드) */
 .results-section { margin-top: 3rem; }
-.results-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 1rem;
-}
-.gift-card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 1.5rem 1.25rem;
-    text-align: left;
-    animation: fadeIn 0.3s ease-out;
-    transition: border-color 0.15s, transform 0.15s;
-}
-.gift-card:hover { 
-    border-color: var(--border-strong);
-    transform: translateY(-2px);
-}
-.gift-emoji { 
-    font-size: 2rem; 
-    margin-bottom: 0.75rem;
-    opacity: 0.85;
-}
-.gift-category {
-    display: inline-block;
-    background: var(--bg);
-    color: var(--text-light);
-    padding: 0.2rem 0.6rem;
-    border-radius: 3px;
-    font-size: 0.7rem;
-    font-weight: 500;
-    margin-bottom: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-.gift-name {
-    font-size: 0.95rem;
-    font-weight: 600;
-    margin-bottom: 0.6rem;
-    color: var(--text);
-    min-height: 2.7em;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    line-height: 1.4;
-}
-.gift-price {
-    font-size: 1.05rem;
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.02em;
-}
-.gift-target {
-    margin-top: 0.4rem;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-}
-.gift-score {
-    display: inline-block;
-    margin-top: 0.75rem;
-    padding: 0.15rem 0.55rem;
-    background: var(--bg);
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    font-size: 0.7rem;
-    font-weight: 500;
-    color: var(--text-light);
-}
-.gift-link {
-    display: block;
-    margin-top: 1rem;
-    padding: 0.55rem;
-    background: var(--text);
-    color: var(--card);
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    font-weight: 500;
-    text-align: center;
-    transition: background 0.15s;
-}
-.gift-link:hover { background: #333; }
+.results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+.gift-card { background: var(--card); border: 1px solid var(--border); border-radius: 15px; padding: 1.5rem; box-shadow: var(--shadow-sm); transition: transform 0.2s; }
+.gift-card:hover { transform: translateY(-5px); border-color: var(--border-strong); }
+.gift-emoji { font-size: 2rem; margin-bottom: 0.75rem; }
+.gift-name { font-size: 1.1rem; color: var(--text); margin-bottom: 0.6rem; }
+.gift-price { font-size: 1.2rem; color: var(--primary-deep); }
+.gift-link { display: block; margin-top: 1rem; padding: 0.55rem; background: var(--primary); color: #fff; text-decoration: none; border-radius: 10px; text-align: center; }
+.gift-link:hover { background: var(--primary-dark); }
 
-.hidden { display: none !important; }
-.error {
-    background: #fef2f2;
-    color: var(--danger);
-    border: 1px solid #fecaca;
-    padding: 0.85rem 1rem;
-    border-radius: 4px;
-    margin-top: 1rem;
-    text-align: center;
-    font-size: 0.9rem;
-}
-#loading {
-    text-align: center;
-    padding: 2rem;
-    font-size: 0.95rem;
-    color: var(--text-light);
-}
-footer {
-    text-align: center;
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--border);
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    letter-spacing: 0.02em;
-}
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* === 관리자 페이지 === */
-.admin-toolbar {
-    display: flex;
-    gap: 0.6rem;
-    margin-bottom: 1.5rem;
-    align-items: center;
-}
+/* ==============================================
+   🛠️ 관리자 페이지 (절대 깨지지 않게 분리!)
+   ============================================== */
+.admin-toolbar { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; align-items: center; }
 .admin-toolbar input[type="text"] { flex: 1; }
 
+/* 관리자 페이지 전용 작은 버튼 */
 .btn {
     padding: 0.6rem 1.1rem;
-    border: 1px solid var(--border-strong);
-    border-radius: 4px;
-    font-weight: 500;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
     font-family: inherit;
-    font-size: 0.85rem;
-    background: var(--card);
-    color: var(--text);
-    transition: all 0.15s;
-    white-space: nowrap;
+    font-size: 1rem;
+    background: var(--primary);
+    color: #fff;
+    transition: all 0.2s ease;
 }
-.btn:hover { border-color: var(--text); }
-.btn-primary { 
-    background: var(--text); 
-    color: var(--card);
-    border-color: var(--text);
-}
-.btn-primary:hover { 
-    background: #333;
-    border-color: #333;
-}
-.btn-danger { 
-    background: var(--card);
-    color: var(--danger);
-    border-color: #fecaca;
-}
-.btn-danger:hover { 
-    background: #fef2f2;
-    border-color: var(--danger);
-}
-.btn-secondary { 
-    background: var(--card); 
-    color: var(--text-light); 
-}
+.btn:hover { background: var(--primary-dark); }
+.btn-danger { background: #ffcccc; color: var(--danger); }
+.btn-danger:hover { background: #ff9999; }
+.btn-secondary { background: var(--border); color: var(--text); }
 
+/* 관리자 페이지 표(Table) */
 .gift-table {
     width: 100%;
     background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 15px;
     overflow: hidden;
     border-collapse: collapse;
+    box-shadow: var(--shadow-sm);
 }
 .gift-table th, .gift-table td {
-    padding: 0.8rem 1rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border);
-    font-size: 0.85rem;
+    padding: 0.5rem 0.8rem; font-size: 0.9rem;
+    text-align: center;
+    border-bottom: 1px solid var(--bg);
 }
-.gift-table th {
-    background: var(--bg);
-    color: var(--text-light);
-    font-weight: 500;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
+.gift-table th { background: #FFE4E1; color: var(--text); font-size: 0.85rem; }
 .gift-table tr:hover { background: var(--bg); }
-.gift-table tr:last-child td { border-bottom: none; }
-.gift-table .actions { display: flex; gap: 0.4rem; }
-.gift-table .actions .btn { 
-    padding: 0.3rem 0.7rem; 
-    font-size: 0.75rem; 
-}
+.gift-table .actions { display: flex; gap: 0.4rem; justify-content: center; }
+.gift-table .actions .btn { padding: 0.2rem 0.6rem; font-size: 0.8rem; }
 
-.pagination {
-    display: flex;
-    justify-content: center;
-    gap: 0.3rem;
-    margin-top: 1.5rem;
-}
-.pagination button {
-    padding: 0.5rem 0.85rem;
-    border: 1px solid var(--border);
-    background: var(--card);
-    color: var(--text-light);
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.85rem;
-    font-family: inherit;
-    transition: all 0.15s;
-}
-.pagination button:hover:not(:disabled) {
-    border-color: var(--text);
-    color: var(--text);
-}
-.pagination button.active {
-    background: var(--text);
-    color: var(--card);
-    border-color: var(--text);
-}
-.pagination button:disabled { opacity: 0.4; cursor: not-allowed; }
+/* 페이지네이션 (페이지 번호) */
+.pagination { display: flex; justify-content: center; gap: 0.3rem; margin-top: 1.5rem; }
+.pagination button { padding: 0.5rem 1rem; border: none; background: var(--card); color: var(--text); border-radius: 10px; cursor: pointer; transition: 0.2s; box-shadow: var(--shadow-sm); }
+.pagination button:hover:not(:disabled) { background: var(--primary); color: #fff; }
+.pagination button.active { background: var(--primary-dark); color: #fff; }
 
-.modal-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 100;
-    animation: fadeIn 0.15s;
-}
-.modal {
-    background: var(--card);
-    border-radius: 8px;
-    padding: 2rem;
-    width: 90%;
-    max-width: 500px;
-    max-height: 90vh;
-    overflow-y: auto;
-    border: 1px solid var(--border);
-}
-.modal h3 {
-    font-family: inherit;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: var(--text);
-    margin-bottom: 1.5rem;
-    letter-spacing: -0.01em;
-}
-.modal .form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-}
-.modal label {
-    display: block;
-    font-size: 0.75rem;
-    font-weight: 500;
-    margin-bottom: 0.35rem;
-    color: var(--text-light);
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-}
-.modal .form-group { margin-bottom: 1rem; }
-.modal-actions {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: flex-end;
-    margin-top: 1.5rem;
-    padding-top: 1.25rem;
-    border-top: 1px solid var(--border);
-}
-
-@media (max-width: 600px) {
-    h1 { font-size: 1.6rem; }
-    .form-section { padding: 1.5rem; }
-    .container { padding: 2rem 1rem; }
-    .gift-table { font-size: 0.75rem; }
-    .gift-table th:nth-child(4), .gift-table td:nth-child(4) { display: none; }
-}
-.box, .card {
-  background-color: #FFFFFF;
-  border-radius: 20px;
-  box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
-  padding: 20px;
-  margin-bottom: 15px;
-  border: none;
-}
-
-button {
-  font-family: 'Jua', sans-serif;
-  background-color: #FFB6C1;
-  color: white;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-}
-
-button:hover {
-  background-color: #FF9EAA;
-  transform: translateY(-3px) scale(1.05);
-}
+/* 에러 & 로딩 & 푸터 */
+.hidden { display: none !important; }
+.error { background: #fef2f2; color: var(--danger); padding: 1rem; border-radius: 10px; text-align: center; }
+#loading { text-align: center; padding: 2rem; color: var(--text-light); }
+footer { text-align: center; margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border); color: var(--text-muted); }
