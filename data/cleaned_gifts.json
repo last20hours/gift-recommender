@@ -1,12 +1,1112 @@
 [
-    {
-      "name": "헤어퍼퓸 에센스 오일+기프트 (6종 택1)",
-      "category": "뷰티/케어",
-      "price": 23000,
-      "gender": "female",
-      "min_age": 10,
-      "max_age": 19,
-      "target": null,
-      "link": "https://example.com/..."
-    }
-  ]
+  {
+    "name": "헤어퍼퓸 에센스 오일+기프트 (6종 택1)",
+    "category": "뷰티/케어",
+    "price": 23000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": ""
+  },
+  {
+    "name": "가나디 복조리 파우치",
+    "category": "리빙/인테리어",
+    "price": 12000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": ""
+  },
+  {
+    "name": "70년전통 벨기에 나트라세인트 트러플초콜릿150g",
+    "category": "식품/간식",
+    "price": 9900,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": ""
+  },
+  {
+    "name": "리락쿠마 고속충전 미니 보조배터리 10000mAh 2종 택1",
+    "category": "디지털/가전",
+    "price": 29900,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": ""
+  },
+  {
+    "name": "오덴세X카카오프렌즈 레고트 투웨이 루프 텀블러 720ml_춘식이",
+    "category": "캐릭터/굿즈",
+    "price": 38000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": ""
+  },
+  {
+    "name": "뉴트리포유 듀얼+ 이뮨 종합 멀티비타민&미네랄 7입+2입 증정",
+    "category": "식품/간식",
+    "price": 19900,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/10056171?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[우알롱] 스테디 시그니처 로고 볼캡",
+    "category": "패션/잡화",
+    "price": 19980,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/7600374?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[각인] NEW 립 글로우",
+    "category": "뷰티/케어",
+    "price": 50000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/2259144?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "가나디 복조리 파우치 (귀여운/휴대용/다용도파우치/생일)",
+    "category": "패션/잡화",
+    "price": 12000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/13261876?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[가나디 X SSG랜더스] 유니폼 논마킹 ver (야구/베이스볼/LANDERS/콜라보/응원)",
+    "category": "취미/여가",
+    "price": 89000,
+    "gender": "female",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/13267109?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[선물포장] BEST 미니 퍼퓸 핸드크림",
+    "category": "뷰티/케어",
+    "price": 18500,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/2383671?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[널담] 뚱낭시에 겉바속쫀 크림샌드 휘낭시에 8종 1 SET 고급디저트 식이섬유함유 꾸덕 쫀득",
+    "category": "식품/간식",
+    "price": 13400,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/7285750?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "시그니처컬렉션 디퓨저 50ml 8개입 선물세트 베스트향 모음 향기선물 추천 | 특별한 선물 이사선물 집들이선물 답례품",
+    "category": "리빙/인테리어",
+    "price": 15800,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/12052861?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[단독/선물패키지] 루메나 탁상용 무선 선풍기 FAN STAND 3Z",
+    "category": "디지털/가전",
+    "price": 37900,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/4569429?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[단독] 가나디 바디필로우 2종 (나안아/라잉) 숙면 베개 애착 쿠션 집들이 대형필로우",
+    "category": "캐릭터/굿즈",
+    "price": 34800,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/11743570?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "(당일발송)칼하트 K87 워크웨어 포켓 반팔티셔츠",
+    "category": "패션/잡화",
+    "price": 31900,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9079077?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "부이 폴딩 카메라 + SD카드, 비즈스트랩, 리더기 증정 / 접이식 카메라, 비디오 카메라, 디지털 카메라, 캠코더",
+    "category": "취미/여가",
+    "price": 39900,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/12947533?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "[포장/증정] '생일/응원/감사' 오브제 무드 체인지 립밤 선물 세트 (+커버로션 샤쉐 증정)",
+    "category": "뷰티/케어",
+    "price": 11500,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9138012?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "엑스박스 마이크로소프트 4세대 무선 컨트롤러",
+    "category": "취미/여가",
+    "price": 59700,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/9033906629?itemId=26500340025&vendorItemId=73128473615&pickType=COU_PICK&q=%EA%B2%8C%EC%9E%84+%ED%8C%A8%EB%93%9C&searchId=ed93520e4726634&sourceType=search&itemsCount=36&searchRank=2&rank=2&traceId=mntrv6sm"
+  },
+  {
+    "name": "베로 메신저백 크로스백",
+    "category": "패션/잡화",
+    "price": 14500,
+    "gender": "male",
+    "min_age": 10,
+    "max_age": 19,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/9072317457?itemId=26644734130&vendorItemId=93844952850&sourceType=srp_product_ads&clickEventId=79cdb520-3556-11f1-8044-fac2df39da01&korePlacement=15&koreSubPlacement=1&clickEventId=79cdb520-3556-11f1-8044-fac2df39da01&korePlacement=15&koreSubPlacement=1&traceId=mntryui0"
+  },
+  {
+    "name": "도씨 25 FW 인기 잠옷 32900원 균일가",
+    "category": "패션/잡화",
+    "price": 32900,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://dossy.kr/product/25-fw-인기-잠옷-32900원-균일가/1365/category/340/display/1/"
+  },
+  {
+    "name": "탬버린즈 퍼퓸 핸드크림 카모 30ML",
+    "category": "뷰티/케어",
+    "price": 32000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://brand.naver.com/tamburins/products/7496704273?nl-ts-pid=jO41rlqosNossR2aNBV-030375&n_media=27758&n_query=탬버린즈핸드크림&n_rank=3&n_ad_group=grp-a001-02-000000030267449&n_ad=nad-a001-02-000000211473609&n_campaign_type=2&n_mall_id=ncp_1nnorw_01&n_mall_pid=7496704273&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmnllt4jf%7Cci%3DER20a290d9%2D30d8%2D11f1%2Daa40%2D6ec69f262c27%7Ctr%3Dpla%7Chk%3D86b4677b2f8659740fa9809def03c952ab3ab889%7Cnacn%3DnterDACzOA1JB"
+  },
+  {
+    "name": "소이믹스 라이트업 휴대용 북라이트 독서등 LED 스탠드 SOLITE1",
+    "category": "취미/여가",
+    "price": 14790,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": "취미 - 독서",
+    "link": "https://www.coupang.com/vp/products/9124447775?itemId=26842143578&vendorItemId=93812036828&src=1042503&spec=70304777&addtag=400&ctag=9124447775&lptag=I26842143578V93812036828A509033192R&itime=20260405190607&pageType=PRODUCT&pageValue=9124447775&wPcid=17753835677253806164008&wRef=www.google.com&wTime=20260405190607&redirect=landing&AdNodeId=509033192&gclid=Cj0KCQjwkMjOBhC5ARIsADIdb3eVQbuIeKxmOThlJfAt1koiZ4bzgZIwLQS9wvkj_pS0aIvMVtMQjScaAir0EALw_wcB&mcid=ae5af8ff8d154964b96c51e874fd0bc2&campaignid=&adgroupid="
+  },
+  {
+    "name": "모로칸 오일 트리트먼트 라이트 100ml (+쇼핑백+펌프)",
+    "category": "뷰티/케어",
+    "price": 56950,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://brand.naver.com/moroccanoil/products/7028661005?nl-ts-pid=jO42LlqosNossR2amwd-430344&n_media=27758&n_query=모로칸오일트리트먼트&n_rank=1&n_ad_group=grp-a001-02-000000048859155&n_ad=nad-a001-02-000000366075487&n_campaign_type=2&n_mall_id=ncp_1o27ci_01&n_mall_pid=7028661005&n_ad_group_type=2&n_match=3&NaPm=ct%3Dmnllvcot%7Cci%3DER5e8c7b3a%2D30d8%2D11f1%2Db712%2D6e85e666ce78%7Ctr%3Dpla%7Chk%3Df0aee20dd6d1e9b86d3cc005bc94139bf305ede5%7Cnacn%3DnterDACzOA1JB"
+  },
+  {
+    "name": "러쉬 수퍼 밀크 컨디셔닝 헤어 프라이머 100g",
+    "category": "뷰티/케어",
+    "price": 38000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/5813838333?itemId=10012029190&vendorItemId=77295037360&src=1042501&spec=10304968&addtag=400&ctag=5813838333&lptag=I10012029190&itime=20260405191733&pageType=PRODUCT&pageValue=5813838333&wPcid=17753835677253806164008&wRef=search.naver.com&wTime=20260405191733&redirect=landing&mcid=682f608523334eec8c10752cb9c28cfa&n_ad_group=grp-a001-02-000000044390405&n_ad=nad-a001-02-000000330313225&n_rank=2&n_media=27758&n_query=러쉬헤어프라이머"
+  },
+  {
+    "name": "디올 어딕트 립글로우",
+    "category": "뷰티/케어",
+    "price": 50000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://www.dior.com/ko_kr/beauty/products/디올-어딕트-립-글로우-Y0457000.html?utm_source=naver_ko&utm_medium=cpc&utm_campaign=PCD_PC_KOR_ALL_UNI_MUP_OGOING_EC_TXT_NAV_DES_KOR_KRW_EXTM_BRA&utm_content=grp-a001-01-000000045130263&utm_term=디올각인립글로우&n_media=27758&n_query=디올각인립글로우&n_rank=1&n_ad_group=grp-a001-01-000000045130263&n_ad=nad-a001-01-000000488870420&n_keyword_id=nkw-a001-01-000007224251759&n_keyword=디올각인립글로우&n_campaign_type=1&n_ad_group_type=1&n_match=1&NaPm=ct%3Dmnllqcwn%7Cci%3DERd3abce85-30d7-11f1-a959-6616ad15cdd5%7Ctr%3Dsa%7Chk%3D6b668001b335a306dac9c44e0cf36ec87a693a1f%7Cnacn%3DnterDACzOA1JB"
+  },
+  {
+    "name": "보바 그립 고속충전 보조배터리 10000mAh 키링형 케이블",
+    "category": "디지털/가전",
+    "price": 32900,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/11565693"
+  },
+  {
+    "name": "이솝 룸 스프레이",
+    "category": "리빙/인테리어",
+    "price": 75000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/9086769525?itemId=26699367780&vendorItemId=93595510175&q=이솝+룸+스프레이&searchId=1d43bc0b5587076&sourceType=search&itemsCount=36&searchRank=0&rank=0&traceId=mnllnzfr"
+  },
+  {
+    "name": "멜킨스포츠 폼롤러 EPP 90cm 750g 하드 필라테스 종아리마사지 폼플러 스트레칭 요가 폼블러",
+    "category": "뷰티/케어",
+    "price": 19700,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://brand.naver.com/melkin/products/7513817869?nl-ts-pid=jO4GssqosNossR2azcG-278438&n_keyword=&n_rank=2&n_query=멜킨스포츠폼롤러&n_campaign_type=2&n_media=27758&n_campaign=cmp-a001-02-000000007424714&n_ad_group=grp-a001-02-000000039328372&n_ad=nad-a001-02-000000277873778&n_match=3&n_network=search&n_mall_id=melkin01&n_mall_pid=7513817869&n_ad_group_type=2&n_keyword_id=&n_ad_extension=&NaPm=ct%3Dmnlm5cnq%7Cci%3DER749df041-30d9-11f1-a52f-3eacf492ab29%7Ctr%3Dpla%7Chk%3Dc1fc0227b7d7c74f0ca4b73569c5f298356fd282%7Cnacn%3DnterDACzOA1JB"
+  },
+  {
+    "name": "담무 강아지당근케이크",
+    "category": "식품/간식",
+    "price": 10800,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": "반려동물",
+    "link": "https://www.coupang.com/vp/products/8676812670?itemId=25189864588&vendorItemId=91408064911&src=1032001&spec=10305199&addtag=400&ctag=8676812670&lptag=I25189864588&itime=20260405192859&pageType=PRODUCT&pageValue=8676812670&wPcid=17753835677253806164008&wRef=cr2.shopping.naver.com&wTime=20260405192859&redirect=landing&mcid=c4c60449f5984d55aac79a5329e4cda3&n_keyword=&n_ad_group=&n_ad=&n_rank=&n_keyword_id=&n_media=&n_campaign_type=&n_query="
+  },
+  {
+    "name": "잠스트 JK-BAND 무릎보호대",
+    "category": "취미/여가",
+    "price": 32380,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": "취미 - 운동",
+    "link": "https://www.coupang.com/vp/products/24406364?itemId=22586459746&vendorItemId=95051931772&q=잠스트무릎보호대&searchId=69d24dd68699259&sourceType=search&itemsCount=36&searchRank=2&rank=2&traceId=mnlm8g5h"
+  },
+  {
+    "name": "김보람초콜릿 밀크 생초콜릿(파베 28pcs/150g)",
+    "category": "식품/간식",
+    "price": 16000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/1389659"
+  },
+  {
+    "name": "센트룸 Best 멀티비타민 6종 택1 (맨/우먼/칼슘+D/에너지B)",
+    "category": "식품/간식",
+    "price": 27000,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/3947030"
+  },
+  {
+    "name": "창억떡 BEST 쫀득달콤 호박인절미 외 인기 2종",
+    "category": "식품/간식",
+    "price": 27800,
+    "gender": "female",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/12697968"
+  },
+  {
+    "name": "오브제 무드 체인지 립밤 선물 세트",
+    "category": "뷰티/케어",
+    "price": 11500,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9138012"
+  },
+  {
+    "name": "삼대오백 BCAA 오리지널 300g 1통 삼대오백 헬스 운동 부스터",
+    "category": "취미/여가",
+    "price": 17900,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": "취미 - 운동",
+    "link": "https://gift.kakao.com/product/5297984"
+  },
+  {
+    "name": "보바 그립 고속충전 보조배터리 10000mAh 키링형 케이블",
+    "category": "디지털/가전",
+    "price": 32900,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/11565693"
+  },
+  {
+    "name": "오브제 '남친/친구/동료' 오브제 오드퍼퓸 덱스 향수 선물 세트 (+미니 핸드크림 증정)",
+    "category": "뷰티/케어",
+    "price": 32900,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/8491733"
+  },
+  {
+    "name": "김보람초콜릿 밀크 생초콜릿(파베 28pcs/150g)",
+    "category": "식품/간식",
+    "price": 16000,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/1389659"
+  },
+  {
+    "name": "센트룸 Best 멀티비타민 6종 택1 (맨/우먼/칼슘+D/에너지B)",
+    "category": "식품/간식",
+    "price": 27000,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/3947030"
+  },
+  {
+    "name": "오브제 포어제로 오일 컨트롤 선스틱 18g",
+    "category": "뷰티/케어",
+    "price": 17900,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/11141162"
+  },
+  {
+    "name": "나이키 에브리데이 쿠션 크루 양말 3팩 (SX7664)",
+    "category": "패션/잡화",
+    "price": 12900,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/7031326"
+  },
+  {
+    "name": "잠스트 JK-BAND 무릎보호대",
+    "category": "취미/여가",
+    "price": 32380,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": "취미 - 운동",
+    "link": "https://www.coupang.com/vp/products/24406364?itemId=22586459746&vendorItemId=95051931772&q=잠스트무릎보호대&searchId=69d24dd68699259&sourceType=search&itemsCount=36&searchRank=2&rank=2&traceId=mnlm8g5h"
+  },
+  {
+    "name": "에이치덱스 에어 머슬핏 숏 슬리브 / 운동 티셔츠 3종 택1",
+    "category": "패션/잡화",
+    "price": 36000,
+    "gender": "male",
+    "min_age": 20,
+    "max_age": 29,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9576078"
+  },
+  {
+    "name": "농협안심한우 1등급 '스페셜 구이세트' 900g (등심+채끝+안심, 각 300g)",
+    "category": "식품/간식",
+    "price": 109800,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/6-_3znh4xT"
+  },
+  {
+    "name": "에스티로더 갈색병 세럼 30ML 세트",
+    "category": "뷰티/케어",
+    "price": 127000,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/OoZ7ZrqRsO"
+  },
+  {
+    "name": "오쏘몰 이뮨 멀티비타민&미네랄 10입",
+    "category": "식품/간식",
+    "price": 45000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/MwGhmm6Jjx"
+  },
+  {
+    "name": "[센트룸] 멀티비타민 6종 택1",
+    "category": "식품/간식",
+    "price": 27000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/wzdaQviGxV"
+  },
+  {
+    "name": "현대백화점 상품권 모바일 교환권 10만원권",
+    "category": "상품권",
+    "price": 100000,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/10503760?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "휴대용 분유쉐이커",
+    "category": "리빙/인테리어",
+    "price": 45900,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "임산부(출산)",
+    "link": "https://kko.to/jYLDw_hBdu"
+  },
+  {
+    "name": "이유식 스타트세트",
+    "category": "리빙/인테리어",
+    "price": 49900,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "임산부(출산)",
+    "link": "https://kko.to/Ab-03xUl2Y"
+  },
+  {
+    "name": "돌체구스토 캡슐 커피머신 지니오S",
+    "category": "리빙/인테리어",
+    "price": 74000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "집들이",
+    "link": "https://kko.to/cyvMs4UCUZ"
+  },
+  {
+    "name": "아쿠아파워 올인원 200ml 세트",
+    "category": "뷰티/케어",
+    "price": 56000,
+    "gender": "male",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/9RZZ0qTJes"
+  },
+  {
+    "name": "버버리 클래식 포맨 EDT 50ML",
+    "category": "뷰티/케어",
+    "price": 55000,
+    "gender": "male",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/0ooc1QWzDH"
+  },
+  {
+    "name": "미스 디올 블루밍 부케 오 드 뚜왈렛 30ML",
+    "category": "뷰티/케어",
+    "price": 99000,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/rHoLQYnAw9"
+  },
+  {
+    "name": "오드뚜왈렛 50ml",
+    "category": "뷰티/케어",
+    "price": 198000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/PiqlLbX1NF"
+  },
+  {
+    "name": "캘빈클라인 언더",
+    "category": "패션/잡화",
+    "price": 52650,
+    "gender": "male",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/w7x0Xh0xsJ"
+  },
+  {
+    "name": "배민상품권 5만원 교환권",
+    "category": "상품권",
+    "price": 50000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/nlItu6r7rr"
+  },
+  {
+    "name": "임산부선물 비건 바디로션+바디워시+아기로션샘플",
+    "category": "뷰티/케어",
+    "price": 39000,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "임산부",
+    "link": "https://kko.to/CQU8YvxQO9"
+  },
+  {
+    "name": "모멘추얼 고블렛 와인잔 2P 세트 클로버 에디션",
+    "category": "리빙/인테리어",
+    "price": 49000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "집들이, 결혼",
+    "link": "https://kko.to/wu7uBCmFxe"
+  },
+  {
+    "name": "3중 에어셀 더블 프레스 슬림 컨트롤러 무선 3단 온열 종아리 마사지기",
+    "category": "기타",
+    "price": 129000,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": "직장인",
+    "link": "https://kko.to/Wm2-Iaz_mT"
+  },
+  {
+    "name": "강력한 초소형 초경량 4종 마사지헤드 미니 마사지건",
+    "category": "기타",
+    "price": 99000,
+    "gender": "unisex",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/Kx2TiJ4yN3"
+  },
+  {
+    "name": "발베니 12년 700ml",
+    "category": "식품/간식",
+    "price": 102000,
+    "gender": "male",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/PrCNs2TdkL"
+  },
+  {
+    "name": "클로 메디소닉 갈바닉 고주파 마사지기",
+    "category": "뷰티/케어",
+    "price": 69000,
+    "gender": "female",
+    "min_age": 30,
+    "max_age": 39,
+    "target": null,
+    "link": "https://kko.to/I_hq6-eYuz"
+  },
+  {
+    "name": "설화수 윤조에센스 6세대 30ml 세트",
+    "category": "뷰티/케어",
+    "price": 55000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/10810952"
+  },
+  {
+    "name": "맥 BEST 립밤 / 스프링 컬렉션 NEW 컬러 출시 (+ 코랄 립 키링 증정)",
+    "category": "뷰티/케어",
+    "price": 38000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/832235?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "현대백화점 상품권 모바일 교환권 10만원권",
+    "category": "상품권",
+    "price": 100000,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/10503760?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "입생로랑 캔디 글레이즈 글로스 밤",
+    "category": "뷰티/케어",
+    "price": 57000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/3765305?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "푸드장 프리미엄 구이 선물세트1.15kg(부채살+토시살+살치살+소목등심(척아이롤))",
+    "category": "식품/간식",
+    "price": 49900,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/5259781?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "프리미엄 플레이팅 캄포나무 도마 (고급선물포장)",
+    "category": "리빙/인테리어",
+    "price": 35900,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/1242369?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "폴로 랄프 로렌 공식 남성 면 혼방 3팩 양말 기프트세트 5종 택 1",
+    "category": "패션/잡화",
+    "price": 37000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/5459265?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "아쿠아디파르마 카 디퓨저 카트리지",
+    "category": "리빙/인테리어",
+    "price": 89000,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/10877809?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "타이틀리스트 퍼마 소프트 남성 골프장갑",
+    "category": "패션/잡화",
+    "price": 32900,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/2227124?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "디올 소바쥬 오 드 뚜왈렛 60ML",
+    "category": "뷰티/케어",
+    "price": 140000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/1181831?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "몽블랑 말발굽형 팔라듐 버클 30mm",
+    "category": "패션/잡화",
+    "price": 520000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000061952904&siteNo=6009&salestrNo=1023"
+  },
+  {
+    "name": "톰포드 남성 폴카 도트 넥타이",
+    "category": "패션/잡화",
+    "price": 283000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000686821275&siteNo=6009&salestrNo=1017"
+  },
+  {
+    "name": "페레가모 간치니 자카드 타이",
+    "category": "패션/잡화",
+    "price": 350000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/special/ferragamo/itemView.ssg?itemId=1000776443777&siteNo=6009&salestrNo=1007&itemSsgCollectYn=N"
+  },
+  {
+    "name": "버버리 오벌 나이트 스탬프 여성 양면 벨트",
+    "category": "패션/잡화",
+    "price": 392000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000720226680&siteNo=6009&salestrNo=1017"
+  },
+  {
+    "name": "에스티로더 갈색병 50ml (+갈색병 추가 45ml+파우치)+SSG상품권 5천원",
+    "category": "뷰티/케어",
+    "price": 200000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000806160864&siteNo=6009&salestrNo=1004"
+  },
+  {
+    "name": "SK-II 피테라 에센스 160ml",
+    "category": "뷰티/케어",
+    "price": 219000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000013665766&siteNo=6009&salestrNo=1004"
+  },
+  {
+    "name": "스미스앤레더 가죽 2구 세로 볼케이스 선물 세트",
+    "category": "패션/잡화",
+    "price": 63000,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/12212605?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "조말론런던 핸드 크림 30ML",
+    "category": "뷰티/케어",
+    "price": 34000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9245998?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "수플린 새콤달콤 프리미엄 고당도 애플망고 총 2.1KG 이상",
+    "category": "식품/간식",
+    "price": 32900,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://gift.kakao.com/product/7630727?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "비오템옴므 아쿠아파워 올인원 200ml 세트",
+    "category": "뷰티/케어",
+    "price": 56000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000622966818&siteNo=6009&salestrNo=1004"
+  },
+  {
+    "name": "모로칸오일 트리트먼트 100ml (펌핑기포함)",
+    "category": "뷰티/케어",
+    "price": 67000,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000033003327&siteNo=6009&salestrNo=1018"
+  },
+  {
+    "name": "르쿠르제 원형접시 19cm 2P",
+    "category": "리빙/인테리어",
+    "price": 56000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000190292848&siteNo=6009&salestrNo=1024"
+  },
+  {
+    "name": "시라쿠스 메이플 4인홈세트 23p 코지그린+코지블루",
+    "category": "리빙/인테리어",
+    "price": 242100,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://www.ssg.com/item/itemView.ssg?itemId=1000634482961&siteNo=6004&salestrNo=6005"
+  },
+  {
+    "name": "네스프레소 버츄오 업 펄화이트",
+    "category": "리빙/인테리어",
+    "price": 213978,
+    "gender": "unisex",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://department.ssg.com/item/itemView.ssg?itemId=1000795664319&siteNo=6009&salestrNo=1018"
+  },
+  {
+    "name": "발뮤다 더 토스터 K11B",
+    "category": "리빙/인테리어",
+    "price": 309000,
+    "gender": "female",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://www.ssg.com/item/itemView.ssg?itemId=1000034528074&siteNo=6004&salestrNo=6005"
+  },
+  {
+    "name": "PXG골프화 KQF PKAPM0102-94",
+    "category": "패션/잡화",
+    "price": 359000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://www.hmall.com/md/pda/itemPtc?slitmCd=2249201685&searchTerm=pxg%20골프화"
+  },
+  {
+    "name": "보스 사운링크 플레그 스피커(2세대)",
+    "category": "디지털/가전",
+    "price": 179000,
+    "gender": "male",
+    "min_age": 40,
+    "max_age": 49,
+    "target": null,
+    "link": "https://www.shinsegaev.com/goods/initDetailGoods.siv?goods_no=2601737300&conts_divi_cd=20&conts_form_cd=100&conts_dist_no=2601737300"
+  },
+  {
+    "name": "얼라이브 원스데일리 멀티비타민",
+    "category": "식품/간식",
+    "price": 23900,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://emart.ssg.com/item/itemView.ssg?itemId=1000511215229&siteNo=6001&salestrNo=2037&tlidSrchWd=%EC%A2%85%ED%95%A9%EB%B9%84%ED%83%80%EB%AF%BC&srchPgNo=1&taste=PReview"
+  },
+  {
+    "name": "아이원 루테인 미니100 60캡슐 2박스 (4개월분)",
+    "category": "식품/간식",
+    "price": 19,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://gift.kakao.com/product/1312661?banner_id=1436&campaign_code=null"
+  },
+  {
+    "name": "설로인 숙성한우 선물세트",
+    "category": "식품/간식",
+    "price": 138000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.sirloin.co.kr/products/1000000293"
+  },
+  {
+    "name": "명품 3호 과일바구니",
+    "category": "식품/간식",
+    "price": 149000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://ddabong.or.kr/product/detail.html?product_no=172&cate_no=1&display_group=2"
+  },
+  {
+    "name": "정관장 홍삼진고+쇼핑백, 250g, 2개",
+    "category": "식품/간식",
+    "price": 78550,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/8636252129?itemId=25058536345&vendorItemId=92062800170&src=1042503&spec=70304777&addtag=400&ctag=8636252129&lptag=I25058536345V92062800170A503886705R&itime=20260412203142&pageType=PRODUCT&pageValue=8636252129&wPcid=17759935024310194424427&wRef=www.google.com&wTime=20260412203142&redirect=landing&AdNodeId=503886705&gclid=CjwKCAjwhe3OBhABEiwA6392zP0anVo9di5gSMndSnYLDQw3uM6iM6FfgmB8uf-SNj8gs_Bn3Lk5tBoCPGMQAvD_BwE&mcid=1cc9cb116b1e4919a2585c2559482393&campaignid=&adgroupid="
+  },
+  {
+    "name": "광동 배도라지쌍화스틱 30포 1세트(+쇼핑백)",
+    "category": "식품/간식",
+    "price": 19,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://gift.kakao.com/product/9590910"
+  },
+  {
+    "name": "수담한과 고급지함1호 예담 2단구성 한과 선물 세트 1kg",
+    "category": "식품/간식",
+    "price": 20800,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.coupang.com/vp/products/7650136072?itemId=20352885066&vendorItemId=91471872453&q=%EB%B6%80%EB%AA%A8%EB%8B%98%EC%9D%B4%EC%A2%8B%EC%95%84%ED%95%98%EB%8A%94%EC%84%A0%EB%AC%BC&searchId=4d72968013398291&sourceType=search&itemsCount=36&searchRank=30&rank=30&traceId=mnvoxrrj"
+  },
+  {
+    "name": "휴그랩 냉온 마사지건",
+    "category": "뷰티/케어",
+    "price": 149,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://hugrab.co.kr/product/detail.html?product_no=28&gad_source=1&gad_campaignid=23670369317&gbraid=0AAAAAo4nAOiyis_YEuvYKUClD11v14wla&gclid=CjwKCAjwhe3OBhABEiwA6392zMj_ir-8wSoQRrubHMi4raJyRmz8G0EMK6C5Uk6MSv37GFsK5WCeeBoC8MUQAvD_BwE"
+  },
+  {
+    "name": "풀리오 풀리지 허벅지 마사지기",
+    "category": "뷰티/케어",
+    "price": 219000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://puliodays.com/product/detail.html?product_no=287&utm_source=googlesa&utm_medium=sa&utm_campaign=thi_googlesa_brand&utm_term=thi_leg&utm_content=%EB%8B%A4%EB%A6%AC%EC%95%88%EB%A7%88%EA%B8%B0&cafe_mkt=ue_thi_g-sa_3&gad_source=1&gad_campaignid=23031980847&gbraid=0AAAAAqVLZUhRfqQXax78po_qYKYafEqxF&gclid=CjwKCAjwhe3OBhABEiwA6392zO6P7lrGeQwc92U3XptpFvGMISc76SHgTXOKtCQ9v3Hun0LwrwMdkRoC-8kQAvD_BwE"
+  },
+  {
+    "name": "템퍼 오리지날® 베개",
+    "category": "리빙/인테리어",
+    "price": 116250,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://kr.tempur.com/pillows/by-collection/ergonomic-pillows-TKR2001M.html"
+  },
+  {
+    "name": "LG 퓨리케어 360˚ 공기청정기 Hit 62㎡ 2등급",
+    "category": "디지털/가전",
+    "price": 369000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.lge.co.kr/air-purifier/as186hwwa"
+  },
+  {
+    "name": "LG 퓨리케어 자연기화 가습기",
+    "category": "디지털/가전",
+    "price": 305,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.lge.co.kr/humidifiers/hw500das-akor1"
+  },
+  {
+    "name": "이브니에 파자마 세트",
+    "category": "패션/잡화",
+    "price": 48880,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.fashionplus.co.kr/goods/detail/255451399"
+  },
+  {
+    "name": "오셜록 무카페인 티 에디션 허브 4종 16입",
+    "category": "식품/간식",
+    "price": 32000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.osulloc.com/kr/ko/shop/item/teashop/21919"
+  },
+  {
+    "name": "모모스커피 드립백 올인원 세트",
+    "category": "식품/간식",
+    "price": 70,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://momos.co.kr/product/%EB%93%9C%EB%A6%BD%EB%B0%B1-%EC%98%AC%EC%9D%B8%EC%9B%90-%EC%84%B8%ED%8A%B8/2480/category/85/display/1/"
+  },
+  {
+    "name": "와인 클라우디 베이 소비뇽 블랑",
+    "category": "식품/간식",
+    "price": 43900,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://10000wine.co.kr/product/%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%94%94-%EB%B2%A0%EC%9D%B4-%EC%86%8C%EB%B9%84%EB%87%BD-%EB%B8%94%EB%9E%91/929/category/49/display/1/"
+  },
+  {
+    "name": "갤럭시 워치8 (블루투스, 40mm)",
+    "category": "디지털/가전",
+    "price": 389500,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.samsung.com/sec/watches/galaxy-watch8/buy/?modelCode=SM-L320NZSAKOO"
+  },
+  {
+    "name": "오쏘울 머플러 울100% 투톤목도리",
+    "category": "패션/잡화",
+    "price": 42900,
+    "gender": "female",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://smartstore.naver.com/ohsowool/products/11183952092?NaPm=ct%3Dmnvqad7s%7Cci%3D4cfdc15be54c03eb063fc0546ea6d003cf79ea76%7Ctr%3Dslsl%7Csn%3D11865895%7Chk%3D73a643b30d8ff02c6a79a32896ae16d39e77a3a5&nl-au=d61476f23460453cb8c61de9403741e7&nl-query=%EB%AA%A9%EB%8F%84%EB%A6%AC+%EC%9A%B8"
+  },
+  {
+    "name": "아벤느 제라캄 뉴트리션 로션 400ml",
+    "category": "뷰티/케어",
+    "price": 43000,
+    "gender": "unisex",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188816&t_page=%ED%86%B5%ED%95%A9%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC%ED%8E%98%EC%9D%B4%EC%A7%80&t_click=%EA%B2%80%EC%83%89%EC%83%81%ED%92%88%EC%83%81%EC%84%B8&t_search_name=%EC%A0%9C%EB%9D%BC%EC%BA%84%20%EB%89%B4%ED%8A%B8%EB%A6%AC%EC%85%98%20%EB%A1%9C%EC%85%98&t_number=2&dispCatNo=1000001000300250001,1000001000800040005&trackingCd=Result_2"
+  },
+  {
+    "name": "페라가모 간치니 남성 양면 벨트",
+    "category": "패션/잡화",
+    "price": 386250,
+    "gender": "male",
+    "min_age": 50,
+    "max_age": 100,
+    "target": null,
+    "link": "https://www.lfmall.co.kr/app/product/D835XX02926?has_init=Y"
+  }
+]
