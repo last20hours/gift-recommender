@@ -4,12 +4,9 @@ let currentPage = 1;
 const PER_PAGE = 15;
 
 window.addEventListener("DOMContentLoaded", () => loadGifts(1));
-
-// Enter로 검색
 document.getElementById("searchInput").addEventListener("keypress", (e) => {
     if (e.key === "Enter") loadGifts(1);
 });
-
 async function loadGifts(page = 1) {
     currentPage = page;
     const search = document.getElementById("searchInput").value;
@@ -26,7 +23,6 @@ async function loadGifts(page = 1) {
         showError(`데이터 로딩 실패: ${err.message}`);
     }
 }
-
 function renderTable(gifts) {
     const tbody = document.getElementById("giftTableBody");
     tbody.innerHTML = "";
@@ -49,7 +45,6 @@ function renderTable(gifts) {
         tbody.appendChild(tr);
     });
 }
-
 function openModal(gift = null) {
     document.getElementById("modal").classList.remove("hidden");
     document.getElementById("modalTitle").textContent = gift ? "선물 수정" : "새 선물 추가";
@@ -74,7 +69,6 @@ function openModal(gift = null) {
 function closeModal() {
     document.getElementById("modal").classList.add("hidden");
 }
-
 document.getElementById("giftEditForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     const id = document.getElementById("editId").value;
@@ -107,7 +101,6 @@ document.getElementById("giftEditForm").addEventListener("submit", async (e) => 
         alert(`❌ ${err.message}`);
     }
 });
-
 async function deleteGift(id, name) {
     if (!confirm(`정말 "${name}"을(를) 삭제하시겠습니까?`)) return;
     try {
