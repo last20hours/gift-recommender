@@ -1,4 +1,15 @@
 /* 입력 필드 */
+:root {
+    --primary: #1a1a1a;           /* 메인 색 */
+    --bg: #fafafa;                /* 배경 */
+    --card: #ffffff;              /* 카드 */
+    --text: #1a1a1a;              /* 글자 */
+    --text-light: #666666;        /* 보조 글자 */
+    --border: #e5e5e5;            /* 테두리 */
+    --border-strong: #cccccc;     /* 진한 테두리 */
+    --danger: #c0392b;            /* 빨간색 (삭제) */
+    --success: #27ae60;           /* 초록색 (성공) */
+}
 input[type="number"], input[type="text"], select {
     width: 100%;
     padding: 0.7rem 0.9rem;

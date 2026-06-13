@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000";
+const API_URL = "http://localhost:5001";
 
 const form = document.getElementById("giftForm");
 const resultsSection = document.getElementById("results");
