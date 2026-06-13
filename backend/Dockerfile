@@ -8,7 +8,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 #시드 스크립트 복사
 COPY . .
-#COPY scripts/ ./scripts/
+COPY scripts/ ./scripts/
 
 EXPOSE 5000
 

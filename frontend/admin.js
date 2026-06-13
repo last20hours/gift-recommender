@@ -4,9 +4,12 @@ let currentPage = 1;
 const PER_PAGE = 15;
 
 window.addEventListener("DOMContentLoaded", () => loadGifts(1));
+
+// Enter로 검색
 document.getElementById("searchInput").addEventListener("keypress", (e) => {
     if (e.key === "Enter") loadGifts(1);
 });
+
 async function loadGifts(page = 1) {
     currentPage = page;
     const search = document.getElementById("searchInput").value;
@@ -23,34 +26,70 @@ async function loadGifts(page = 1) {
         showError(`데이터 로딩 실패: ${err.message}`);
     }
 }
+
 function renderTable(gifts) {
     const tbody = document.getElementById("giftTableBody");
     tbody.innerHTML = "";
+
+    if (gifts.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center; padding: 2rem;">데이터 없음</td></tr>`;
+        return;
+    }
 
     gifts.forEach(g => {
         const tr = document.createElement("tr");
         const genderLabel = { female: "여", male: "남", unisex: "공용" }[g.gender];
         tr.innerHTML = `
             <td>${g.id}</td>
-            <td>${g.name}</td>
+            <td title="${g.name}">${g.name.length > 30 ? g.name.slice(0, 30) + '...' : g.name}</td>
             <td>${g.category}</td>
             <td>${g.price.toLocaleString()}</td>
             <td>${genderLabel}</td>
             <td>${g.min_age}~${g.max_age}</td>
             <td class="actions">
                 <button class="btn btn-secondary" onclick='editGift(${JSON.stringify(g)})'>수정</button>
-                <button class="btn btn-danger" onclick="deleteGift(${g.id}, '${g.name}')">삭제</button>
+                <button class="btn btn-danger" onclick="deleteGift(${g.id}, '${g.name.replace(/'/g, "\\'")}')">삭제</button>
             </td>
         `;
         tbody.appendChild(tr);
     });
 }
+
+function renderPagination(data) {
+    const div = document.getElementById("pagination");
+    div.innerHTML = "";
+    if (data.pages <= 1) return;
+
+    const prevBtn = document.createElement("button");
+    prevBtn.textContent = "◀";
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.onclick = () => loadGifts(currentPage - 1);
+    div.appendChild(prevBtn);
+
+    // 페이지 번호: 현재 페이지 주변 5개만
+    const start = Math.max(1, currentPage - 2);
+    const end = Math.min(data.pages, start + 4);
+    for (let i = start; i <= end; i++) {
+        const btn = document.createElement("button");
+        btn.textContent = i;
+        if (i === currentPage) btn.classList.add("active");
+        btn.onclick = () => loadGifts(i);
+        div.appendChild(btn);
+    }
+
+    const nextBtn = document.createElement("button");
+    nextBtn.textContent = "▶";
+    nextBtn.disabled = currentPage === data.pages;
+    nextBtn.onclick = () => loadGifts(currentPage + 1);
+    div.appendChild(nextBtn);
+}
+
+// === 모달 ===
 function openModal(gift = null) {
     document.getElementById("modal").classList.remove("hidden");
     document.getElementById("modalTitle").textContent = gift ? "선물 수정" : "새 선물 추가";
     
     if (gift) {
-        // 수정 모드: 기존 값 채우기
         document.getElementById("editId").value = gift.id;
         document.getElementById("editName").value = gift.name;
         document.getElementById("editCategory").value = gift.category;
@@ -60,7 +99,6 @@ function openModal(gift = null) {
         document.getElementById("editTarget").value = gift.target || "";
         document.getElementById("editLink").value = gift.link || "";
     } else {
-        // 추가 모드: 폼 초기화
         document.getElementById("giftEditForm").reset();
         document.getElementById("editId").value = "";
     }
@@ -69,6 +107,12 @@ function openModal(gift = null) {
 function closeModal() {
     document.getElementById("modal").classList.add("hidden");
 }
+
+function editGift(gift) {
+    openModal(gift);
+}
+
+// 폼 제출 (생성 or 수정)
 document.getElementById("giftEditForm").addEventListener("submit", async (e) => {
     e.preventDefault();
     const id = document.getElementById("editId").value;
@@ -84,7 +128,6 @@ document.getElementById("giftEditForm").addEventListener("submit", async (e) => 
         link: document.getElementById("editLink").value || null,
     };
 
-    // ID 있으면 PUT(수정), 없으면 POST(생성)
     const url = id ? `${API_URL}/admin/gifts/${id}` : `${API_URL}/admin/gifts`;
     const method = id ? "PUT" : "POST";
 
@@ -94,13 +137,17 @@ document.getElementById("giftEditForm").addEventListener("submit", async (e) => 
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(payload)
         });
-        if (!res.ok) throw new Error("저장 실패");
+        if (!res.ok) {
+            const err = await res.json();
+            throw new Error(err.error || "저장 실패");
+        }
         closeModal();
         loadGifts(currentPage);
     } catch (err) {
         alert(`❌ ${err.message}`);
     }
 });
+
 async function deleteGift(id, name) {
     if (!confirm(`정말 "${name}"을(를) 삭제하시겠습니까?`)) return;
     try {
@@ -110,4 +157,10 @@ async function deleteGift(id, name) {
     } catch (err) {
         alert(`❌ ${err.message}`);
     }
+}
+
+function showError(msg) {
+    const el = document.getElementById("error");
+    el.textContent = msg;
+    el.classList.remove("hidden");
 }

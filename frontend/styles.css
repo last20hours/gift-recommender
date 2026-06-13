@@ -1,6 +1,6 @@
 :root {
     /* 미니멀 모노톤 + 포인트 컬러 */
-    --primary: #1a1a1a;
+    --primary: #ff6b9d;
     --primary-dark: #000000;
     --bg: #fafafa;
     --card: #ffffff;
@@ -234,6 +234,7 @@ input:focus, select:focus {
     min-height: 2.7em;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
     line-height: 1.4;

@@ -7,6 +7,7 @@ const loading = document.getElementById("loading");
 const errorBox = document.getElementById("error");
 const categoryGroup = document.getElementById("categoryGroup");
 
+// 페이지 로드 시 카테고리 목록 가져오기
 window.addEventListener("DOMContentLoaded", async () => {
     try {
         const res = await fetch(`${API_URL}/categories`);
@@ -17,12 +18,12 @@ window.addEventListener("DOMContentLoaded", async () => {
             categoryGroup.appendChild(label);
         });
     } catch (err) {
-        categoryGroup.innerHTML = `<small>카테고리 로딩 실패 (백엔드 확인 필요)</small>`;
+        categoryGroup.innerHTML = `<small style="color:#999;">카테고리 로딩 실패 (백엔드 확인 필요)</small>`;
     }
 });
 
 form.addEventListener("submit", async (e) => {
-    e.preventDefault();  // 페이지 새로고침 방지
+    e.preventDefault();
     errorBox.classList.add("hidden");
     resultsSection.classList.add("hidden");
     loading.classList.remove("hidden");
@@ -55,12 +56,17 @@ form.addEventListener("submit", async (e) => {
         loading.classList.add("hidden");
     }
 });
+
 function displayResults(gifts) {
     resultsList.innerHTML = "";
 
     if (gifts.length === 0) {
-        resultsList.innerHTML = `<div>조건에 맞는 선물을 찾지 못했어요.</div>`;
+        resultsList.innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; padding: 2rem;">
+                😢 조건에 맞는 선물을 찾지 못했어요. 예산을 늘려보세요!
+            </div>`;
     } else {
+        // 카테고리별 이모지 매핑
         const emojiMap = {
             "뷰티/케어": "💄", "식품/간식": "🍫", "패션/잡화": "👜",
             "리빙/인테리어": "🏠", "디지털/가전": "📱", "취미/여가": "🎨",
