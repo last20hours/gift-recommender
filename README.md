@@ -3,6 +3,14 @@
 > 리눅스 8조 ♾️무한도전♾️  
 > Flask + MySQL + Docker 기반 풀스택 웹 애플리케이션
 
+## 💻  개발 환경
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white&v=1)
+
 ---
 
 ## ✨ 서비스 장점 (Key Features) ✨
