@@ -3,6 +3,7 @@
 > 리눅스 8조 ♾️무한도전♾️  
 > Flask + MySQL + Docker 기반 풀스택 웹 애플리케이션
 
+
 ## 💻  개발 환경
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -13,12 +14,14 @@
 
 ---
 
+
 ## ✨ 서비스 장점 (Key Features) ✨
 1. **시간 절약:** 선물을 고를 때 고민하는 시간이 획기적으로 줄어듭니다!
 2. **맞춤형 추천:** 나이, 성별, 취미, 예산 등 개인화된 조건으로 최적의 선물을 추천받아보세요!
 3. **정보 통합:** 다양한 선물 정보를 한곳에서 편리하게 찾아보세요!
 4. **관리자 페이지 지원:** 전용 관리자 페이지를 통해 데이터를 손쉽게 관리할 수 있어, 지속적인 정보 업데이트가 가능합니다!
 5. **원스톱 접근:** 실제 구매 링크가 연동되어 있어 추천받은 상품을 즉시 구매할 수 있습니다!
+
 
 ### 폴더 트리
 
