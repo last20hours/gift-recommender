@@ -50,43 +50,46 @@ birthday-gift-app-v2/
 
 ---
 
-## 📖 전체 흐름 요약
-
-### 사용자가 추천받을 때:
-
 ```
-1. 브라우저에서 http://localhost:8080 접속
-   → nginx가 index.html 보내줌
-   
-2. index.html 로드 → app.js 실행
-   → fetch("http://localhost:5000/categories")
-   → 백엔드 Flask가 SQLAlchemy로 MySQL 조회
-   → JSON으로 응답 → 화면에 체크박스 동적 생성
+### 📖 전체 흐름 요약
 
-3. 사용자가 폼 입력 → "추천받기" 클릭
-   → fetch("http://localhost:5000/recommend", POST)
-   → Flask가 SQL WHERE로 필터링
-   → Python에서 점수 계산
-   → 랜덤 셔플
-   → JSON 응답
-   
-4. app.js가 결과를 받아 카드 UI로 렌더링
-```
+> ### 사용자가 추천받을 때:
+>
+> ```
+> 1. 브라우저에서 http://localhost:8080 접속
+>   → nginx가 index.html 보내줌
+>   
+> 2. index.html 로드 → app.js 실행
+>   → fetch("http://localhost:5000/categories")
+>   → 백엔드 Flask가 SQLAlchemy로 MySQL 조회
+>   → JSON으로 응답 → 화면에 체크박스 동적 생성
+>
+> 3. 사용자가 폼 입력 → "추천받기" 클릭
+>   → fetch("http://localhost:5000/recommend", POST)
+>   → Flask가 SQL WHERE로 필터링
+>   → Python에서 점수 계산
+>   → 랜덤 셔플
+>   → JSON 응답
+>   
+> 4. app.js가 결과를 받아 카드 UI로 렌더링
 
-### 관리자가 선물 추가할 때:
+---
 
-```
-1. admin.html에서 "새 선물 추가" 클릭
-   → 모달 창 열림
 
-2. 폼 입력 후 "저장" 클릭
-   → fetch("http://localhost:5000/admin/gifts", POST)
-   → Flask가 SQLAlchemy로 MySQL에 INSERT
-   → 새 상품 정보 JSON 응답
-
-3. 모달 닫힘 → 목록 자동 새로고침
-   → 새로 추가된 상품이 맨 위에 보임
-```
+> ### 관리자가 선물 추가할 때:
+>
+>```
+> 1. admin.html에서 "새 선물 추가" 클릭
+>   → 모달 창 열림
+>
+> 2. 폼 입력 후 "저장" 클릭
+>   → fetch("http://localhost:5000/admin/gifts", POST)
+>   → Flask가 SQLAlchemy로 MySQL에 INSERT
+>   → 새 상품 정보 JSON 응답
+>
+> 3. 모달 닫힘 → 목록 자동 새로고침
+>   → 새로 추가된 상품이 맨 위에 보임
+> ```
 
 ---
 
