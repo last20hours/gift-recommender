@@ -23,7 +23,7 @@
 5. **원스톱 접근:** 실제 구매 링크가 연동되어 있어 추천받은 상품을 즉시 구매할 수 있습니다!
 
 
-### 폴더 트리
+### 🌲 폴더 트리
 
 ```
 birthday-gift-app-v2/
@@ -46,21 +46,6 @@ birthday-gift-app-v2/
 ├── data/
 │   └── cleaned_gifts.json   # 111개 상품 데이터
 └── docker-compose.yml       # 3개 컨테이너 통합 관리
-```
-
-### 시스템 동작 원리
-
-```
-[브라우저]
-    ↓ HTTP 요청
-[프론트엔드 nginx:8080] → 정적 파일(HTML/CSS/JS) 서빙
-    ↓
-[브라우저 자바스크립트]
-    ↓ fetch() API 호출
-[백엔드 Flask:5000] → 비즈니스 로직 처리
-    ↓ SQLAlchemy ORM
-[MySQL DB:3306] → 데이터 저장/조회
-```
 
 ---
 
